@@ -64,8 +64,8 @@ export default function HomePage() {
           aria-haspopup="true"
           onClick={handleToggle}
         >
-          Dashboard
-        </Button>
+          Dashboard x
+        </Button> 
         <Popper
           open={open}
           anchorEl={anchorRef.current}
